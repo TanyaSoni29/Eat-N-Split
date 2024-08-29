@@ -62,6 +62,7 @@ function App() {
       </div>
       {selectedFriend && (
         <BillSplitCalci
+        key={selectedFriend.id}
           selectedFriend={selectedFriend}
           onSplitBill={handleSplitBill}
         />
