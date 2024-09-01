@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 function BillSplitCalci({ selectedFriend, onSplitBill }) {
   const [select, setSelect] = useState("user");
-  // console.log(selectedFriend)
   const [billValue, setBillValue] = useState(0);
   const [yourExpense, setYourExpense] = useState(0);
 
