@@ -44,7 +44,7 @@ function BillSplitCalci({ selectedFriend, onSplitBill }) {
         disabled
       />
 
-      <label htmlFor="imgUrl">🙄 Who is paying the bill?</label>
+      <label htmlFor="imgUrl">😛 Who is paying the bill?</label>
       <select onChange={(e) => setSelect(e.target.value)} value={select}>
         <option value="user">You</option>
         <option value="friend">{selectedFriend.name}</option>
