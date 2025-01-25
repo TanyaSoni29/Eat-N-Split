@@ -16,13 +16,11 @@ function AddFriendForm({ setNewFriend, setAddFormOpen }) {
     };
 
     setNewFriend((prev) => [...prev, newFriend]);
-
     setFriendName("");
     setImgUrl("https://i.pravatar.cc/48?");
     setAddFormOpen(false);
-
-    console.log(newFriend);
   };
+  
   return (
     <form className="form-add-friend" onSubmit={handleSubmit}>
       <label htmlFor="friendName">👫 Friend name</label>

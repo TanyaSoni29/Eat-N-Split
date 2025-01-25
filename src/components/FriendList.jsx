@@ -10,7 +10,7 @@ function FriendList({
   console.log(newFriend);
   return (
     <ul>
-      {newFriend.map((friend) => (
+      {newFriend?.map((friend) => (
         <Friend
           friend={friend}
           key={friend.id}
